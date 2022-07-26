@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
+
+html, body {
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: lightblue;
+    background-color: black;
+    border:  solid 2px lightblue;
+}
+
+
+h1{
+    border:  solid 4px lightblue;
+    background: rgba(33, 32, 32, 0.759);
+}
+
+
+h2 {
+    font-size: 200px;
+}
+
+#welcome {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+   
+}
+
+#generator {
+    margin-top: 70px;
+}
+
+#wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 70px;
+}
+
+.box {
+    border: solid 2px lightblue;
+    background: rgba(0, 0, 0, 0.463);
+    color: lightblue;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+
+.show {
+    display:none;
+}
